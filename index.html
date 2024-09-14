@@ -1,124 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bellapu Ravvala Sricharan - Resume</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: #fff;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ece9e6, #ffffff);
             padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
         h1, h2, h3 {
             color: #333;
+            font-weight: 700;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        .contact-info, .skills, .interests {
-            margin-bottom: 30px;
-        }
+
         .contact-info a {
             text-decoration: none;
-            color: #0066cc;
+            color: #007bff;
         }
+
         .section {
             margin-bottom: 40px;
         }
+
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .section li {
+            margin-bottom: 15px;
+        }
+
+        .section-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-card:hover {
+            transform: translateY(-10px);
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .icon-3d {
+            font-size: 20px;
+            margin-right: 10px;
+            color: #007bff;
+        }
+
+        /* Add 3D button effects */
+        .btn-custom {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 0 6px 12px rgba(0, 123, 255, 0.2);
+            transition: transform 0.2s ease;
+        }
+
+        .btn-custom:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 123, 255, 0.3);
+        }
+
+        .skills-badge {
+            background-color: #007bff;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            margin: 5px;
+        }
+
+        .interests-badge {
+            background-color: #28a745;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            margin: 5px;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <h1>Bellapu Ravvala Sricharan</h1>
-        <div class="contact-info">
+        <div class="text-center mb-5">
+            <h1>Bellapu Ravvala Sricharan</h1>
+            <p class="lead">AI Engineer | Data Scientist | Innovator</p>
+        </div>
+
+        <div class="contact-info text-center mb-5">
             <p>Email: <a href="mailto:sricharan200114@gmail.com">sricharan200114@gmail.com</a></p>
             <p>Phone: 9989236183</p>
             <p>Location: Hyderabad, Telangana, India</p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/brsricharan" target="_blank">www.linkedin.com/in/brsricharan</a></p>
         </div>
 
+        <!-- Professional Experience -->
         <div class="section">
-            <h2>Professional Experience</h2>
+            <h2><i class="icon-3d bi bi-briefcase"></i>Professional Experience</h2>
             <ul>
-                <li>
+                <li class="section-card">
                     <strong>AI Engineer Intern - Silence Speaks</strong> (05/2024 – Present | Remote - UK)<br>
                     - Contributing to text-to-sign language conversion using MediaPipe/Yolo and web scraping with BeautifulSoup.<br>
                     - Developed interface for text-to-sign language translation and collaborated on AI model training, accessibility, and ethical AI.
                 </li>
-                <li>
+                <li class="section-card">
                     <strong>AI Intern - MindStaq India Pvt Ltd</strong> (12/2022 – 06/2023)<br>
                     - Conducted research and experiments on sentiment analysis, speech-to-text translation, and summarization.
                 </li>
-                <li>
+                <li class="section-card">
                     <strong>Software Development Intern - Reckonsys Tech Labs</strong> (06/2022 – 06/2022 | Bangalore, India)<br>
                     - Developed a Taxi Services Web Application using Django Framework.
                 </li>
             </ul>
         </div>
 
+        <!-- Education -->
         <div class="section">
-            <h2>Education</h2>
+            <h2><i class="icon-3d bi bi-mortarboard"></i>Education</h2>
             <ul>
-                <li><strong>M.Sc in Data Science and Computing</strong> - Sri Satya Sai Institute of Higher Learning (2023 – 2025) | Puttaparthi, India - Grade: A+</li>
-                <li><strong>B.Sc. Honours in Computer Science</strong> - Sri Satya Sai Institute of Higher Learning (2019 – 2022) | Puttaparthi, India - Grade: A+</li>
-                <li><strong>Higher Secondary Education</strong> - Sarath Junior College (2017 – 2019) | Hyderabad, India - Grade: A+ (92%)</li>
-                <li><strong>High School</strong> - Sri Satya Sai Vidya Vihar (2014 – 2017) | Hyderabad, India - Grade: A+</li>
-                <li><strong>Indian School AlGhubra</strong> - Muscat, Oman (2006 – 2014) | Grade: A+</li>
+                <li class="section-card"><strong>M.Sc in Data Science and Computing</strong> - Sri Satya Sai Institute of Higher Learning (2023 – 2025) | Grade: A+</li>
+                <li class="section-card"><strong>B.Sc. Honours in Computer Science</strong> - Sri Satya Sai Institute of Higher Learning (2019 – 2022) | Grade: A+</li>
+                <li class="section-card"><strong>Higher Secondary Education</strong> - Sarath Junior College (2017 – 2019) | Grade: A+ (92%)</li>
             </ul>
         </div>
 
+        <!-- Certificates -->
         <div class="section">
-            <h2>Certificates</h2>
+            <h2><i class="icon-3d bi bi-award"></i>Certificates</h2>
             <ul>
-                <li>Google Data Analytics Professional Certificate - Coursera, Google</li>
-                <li>Diploma in Satya Sai Education - Sri Satya Sai Seva Organizations</li>
+                <li class="section-card">Google Data Analytics Professional Certificate - Coursera, Google</li>
+                <li class="section-card">Diploma in Satya Sai Education - Sri Satya Sai Seva Organizations</li>
             </ul>
         </div>
 
+        <!-- Awards and Achievements -->
         <div class="section">
-            <h2>Awards and Achievements</h2>
+            <h2><i class="icon-3d bi bi-trophy"></i>Awards and Achievements</h2>
             <ul>
-                <li>SSSIHL Campus Cultural Championship - Champion: 2021-22</li>
-                <li>1st Prize - Mobile Robotics (Mobile Line Follower)</li>
-                <li>Winner - All India Essay Writing Event 2018</li>
-                <li>Tabla Prarambik Exam - Akhila Bharateeya Gandharva Mahavidyalay Mandal, Mumbai</li>
-                <li>Gold Certificate - Yogathon (108 rounds of the 12 Pose Yoga sequence)</li>
+                <li class="section-card">SSSIHL Campus Cultural Championship - Champion: 2021-22</li>
+                <li class="section-card">1st Prize - Mobile Robotics (Mobile Line Follower)</li>
+                <li class="section-card">Winner - All India Essay Writing Event 2018</li>
+                <li class="section-card">Tabla Prarambik Exam - Akhila Bharateeya Gandharva Mahavidyalay Mandal</li>
             </ul>
         </div>
 
+        <!-- Projects -->
         <div class="section">
-            <h2>Projects</h2>
+            <h2><i class="icon-3d bi bi-code"></i>Projects</h2>
             <ul>
-                <li>Text to Sign Data Quality and Training - Python, OpenCV (Present)</li>
-                <li>AI in Project Management - Python, LLMs (Developed interactive web application)</li>
-                <li>Mitra - Personalized Voice Assistant - Python (For Sri Sathya Sai Institute of Higher Learning)</li>
-                <li>Farmer's Direct Selling Ecommerce Website - Django, MySQL (Direct market platform for farmers)</li>
-                <li>Car Sales Management System - C++ (Mini Project)</li>
+                <li class="section-card">Text to Sign Data Quality and Training - Python, OpenCV</li>
+                <li class="section-card">AI in Project Management - Python, LLMs (Developed interactive web application)</li>
+                <li class="section-card">Mitra - Personalized Voice Assistant - Python</li>
             </ul>
         </div>
 
-        <div class="section skills">
-            <h2>Skills</h2>
-            <p>Python, ML, NLP, OpenCV, AWS, Apache Spark, Django, Data Visualization, MySQL, Power BI, C++, Project Management</p>
+        <!-- Skills -->
+        <div class="section">
+            <h2><i class="icon-3d bi bi-lightning"></i>Skills</h2>
+            <div>
+                <span class="skills-badge">Python</span>
+                <span class="skills-badge">ML</span>
+                <span class="skills-badge">OpenCV</span>
+                <span class="skills-badge">AWS</span>
+                <span class="skills-badge">NLP</span>
+                <span class="skills-badge">Django</span>
+                <span class="skills-badge">C++</span>
+            </div>
         </div>
 
-        <div class="section interests">
-            <h2>Interests</h2>
-            <p>Playing Instruments (Keyboard, Tabla, Dholak), Playing Sports (Football, Handball), Writing Google Maps Reviews, Public Speaking, Vedam Chanting</p>
+        <!-- Interests -->
+        <div class="section">
+            <h2><i class="icon-3d bi bi-heart"></i>Interests</h2>
+            <div>
+                <span class="interests-badge">Playing Instruments</span>
+                <span class="interests-badge">Football</span>
+                <span class="interests-badge">Public Speaking</span>
+                <span class="interests-badge">Vedam Chanting</span>
+            </div>
         </div>
+
     </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
