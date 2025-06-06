@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BR's Personal Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Life is a Game , PLAY IT !</a>
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#awards" class="nav-link">Awards</a></li>
+                    <li class="nav-item"><a href="#certificates" class="nav-link">Certificates</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title fade-in">Bellapu Ravvala Sricharan</h1>
+                <h2 class="hero-subtitle fade-in delay-1">Data Scientist @ Kshema General Insurance</h2>
+                <div class="hero-btns fade-in delay-2">
+                    <a href="#contact" class="btn">Contact Me</a>
+                    <a href="#projects" class="btn btn-outline">View Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+			
+                <div class="about-img fade-in">
+                    <!-- Placeholder for profile image -->
+					
+                    <div style="background-color: #000000; height: 400px; display: flex; align-items: center; justify-content: center;">
+					<img src="images/logos/charan.jpeg" alt="about" style="height: 100%; width: auto; object-fit: contain;">
+				</div>
+
+                </div>
+                <div class="about-text fade-in delay-1">
+                    <h3>Professional Profile</h3>
+                    <p>A Data scientist with practical experience in AI and software development. Proficient in Python, ML, NLP, OpenCV, and cloud technologies. I am dedicated to ethical AI and eager to create innovative solutions for real-world challenges.</p>
+                    
+                    <h3>Contact Information</h3>
+                    <p><i class="fas fa-envelope"></i> sricharan200114@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 9989236183</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana, India</p>
+                    <p><i class="fab fa-linkedin"></i> www.linkedin.com/in/brsricharan</p>
+                    
+                    <div class="social-links">
+                        <a href="mailto:sricharan200114@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/brsricharan" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="tel:+919989236183" class="social-link">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section" style="background-color: #f8f8f8;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Education</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item left fade-in">
+                    <div class="timeline-content">
+                        <img src="images/logos/sssihl.jpeg" alt="Sri Satya Sai Institute of Higher Learning" class="timeline-logo">
+                        <div class="timeline-date">2023 – 2025 </div>
+                        <h3 class="timeline-title">M.Sc in Data Science and Computing</h3>
+                        <div class="timeline-location">Sri Satya Sai Institute of Higher Learning, Puttaparthi, India</div>
+                        <p>Grade: O</p>
+                    </div>
+                </div>
+                <div class="timeline-item right fade-in delay-1">
+                    <div class="timeline-content">
+                        <img src="images/logos/sssihl.jpeg" alt="Sri Satya Sai Institute of Higher Learning" class="timeline-logo">
+                        <div class="timeline-date">2019 – 2022</div>
+                        <h3 class="timeline-title">B.Sc. Honours in Computer Science</h3>
+                        <div class="timeline-location">Sri Satya Sai Institute of Higher Learning, Puttaparthi, India</div>
+                        <p>Grade: A+</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+
+            
+            
+			
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Professional Experience</h2>
+            </div>
+			
+			<div class="experience-item fade-in">
+                <div class="experience-header">
+                    <h3 class="experience-company">Kshema General Insurance Limited</h3>
+                    <div class="experience-duration">May 2025 - Present</div>
+                </div>
+                <img src="images/logos/kshema.jpeg" alt="Kshema" class="experience-logo">
+                <div class="experience-position">Data Scientist</div>
+                <div class="experience-location">Hyderabad, Telangana</div>
+                <p></p>
+            </div>
+			
+            <div class="experience-item fade-in">
+                <div class="experience-header">
+                    <h3 class="experience-company">Silence Speaks</h3>
+                    <div class="experience-duration">May 2024 – April 2025</div>
+                </div>
+                <img src="images/logos/silencespeaks.png" alt="Silence Speaks" class="experience-logo">
+                <div class="experience-position">AI Engineer Intern</div>
+                <div class="experience-location">England, United Kingdom</div>
+                <p>Contributing to text-to-sign language conversion using MediaPipe/Yolo, employing BeautifulSoup for web scraping to gather sign language data, and developing an interface for text-to-sign language translation, while also assisting with AI model training, data quality management, ethical AI and accessibility, and collaborative development.</p>
+            </div>
+            
+            <div class="experience-item fade-in delay-1">
+                <div class="experience-header">
+                    <h3 class="experience-company">MindStaq India Pvt Ltd</h3>
+                    <div class="experience-duration">December 2022 – June 2023</div>
+                </div>
+                <img src="images/logos/mindstaq.png" alt="MindStaq India Pvt Ltd" class="experience-logo">
+                <div class="experience-position">AI Intern</div>
+                <div class="experience-location">Pune, India </div>
+                <p>My primary responsibilities included carrying out experiments and research on sentiment analysis, speech-to-text translation, and summarization using machine learning and deep learning models.</p>
+            </div>
+            
+            <div class="experience-item fade-in delay-2">
+                <div class="experience-header">
+                    <h3 class="experience-company">Reckonsys Tech Labs</h3>
+                    <div class="experience-duration">June 2022</div>
+                </div>
+                <img src="images/logos/reckonsys.png" alt="Reckonsys Tech Labs" class="experience-logo">
+                <div class="experience-position">Software Development Intern</div>
+                <div class="experience-location">Bangalore, India</div>
+                <p>Web Application Development in Python using Django Framework and developed a Taxi Services Web Application.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section" style="background-color: #f8f8f8;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <i class="fas fa-sign-language"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Text to Sign Data Quality and Training</h3>
+                        <div class="project-tech">Python, Computer Vision, GCP</div>
+                        <p class="project-description">Currently developing an application using OpenCV and Google Cloud Platform (GCP) to generate sign language videos from text inputs, featuring an interactive interface for users to input sentences and produce corresponding sign language videos.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in delay-1">
+                    <div class="project-img">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI in Project Management</h3>
+                        <div class="project-tech">Python, LLMs, GCP</div>
+                        <p class="project-description">Developed an interactive web application using OpenAI, Google Palm, and Google Cloud Platform, integrating data profiling, CSV chatbot functionality, and advanced visualization.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in delay-2">
+                    <div class="project-img">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MITRA-Personalized Voice Assistant</h3>
+                        <div class="project-tech">Python</div>
+                        <p class="project-description">Mitra is an interactive, personalized voice assistant that responds to commands from the user and carries out the necessary actions. It can summarize speeches, reading the summary audibly when the user submits the speech. The goal of my project was to support Sri Sathya Sai Institute of Higher Learning, my university.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in">
+                    <div class="project-img">
+                        <i class="fas fa-shopping-basket"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Farmer's Direct Selling Ecommerce Website</h3>
+                        <div class="project-tech">Django, SQL</div>
+                        <p class="project-description">The major purpose of this project is to establish a website which will allow farmers to market their products directly to customers. This website offers a user-friendly platform for farmers and buyers to trade agricultural products, as well as guidance for farmers by offering details about soil, fertilizers, pesticides, and climatic conditions so they may maximize their profitability.</p>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in delay-1">
+                    <div class="project-img">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Car Sales Management System</h3>
+                        <div class="project-tech">C++</div>
+                        <p class="project-description">Mini Project using Object oriented programming in C++.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skills</h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category fade-in">
+                    <h3 class="skill-category-title">Programming Languages</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Python</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">C/C++</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">SQL</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category fade-in delay-1">
+                    <h3 class="skill-category-title">AI & Machine Learning</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Natural Language Processing</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Machine Learning</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Computer Vision</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category fade-in delay-2">
+                    <h3 class="skill-category-title">Cloud & Frameworks</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">AWS</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Django</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Google Cloud Platform</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category fade-in">
+                    <h3 class="skill-category-title">Other Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Data Visualization</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Microsoft Power BI</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Project Management</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">Ubuntu/Linux OS</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="section" style="background-color: #f8f8f8;">
+        <div cl
