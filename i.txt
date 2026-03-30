@@ -70,7 +70,7 @@
                     
                     <h3>Contact Information</h3>
                     <p><i class="fas fa-envelope"></i> sricharan200114@gmail.com</p>
-                    <p><i class="fas fa-phone"></i> +91 9989236183</p>
+                    <p><i class="fas fa-phone"></i> +91 9989236xxx</p>
                     <p><i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana, India</p>
                     <p><i class="fab fa-linkedin"></i> www.linkedin.com/in/brsricharan</p>
                     
@@ -81,7 +81,7 @@
                         <a href="https://www.linkedin.com/in/brsricharan" target="_blank" class="social-link">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="tel:+919989236183" class="social-link">
+                        <a href="tel:+919989236xxx" class="social-link">
                             <i class="fas fa-phone"></i>
                         </a>
                     </div>
